@@ -33,21 +33,26 @@ main {
 
 
 .main {
-    box-sizing: border-box;
+    display: table-cell;
     background-color: #fff;
     border-radius: .5em;
-    float: left;
     width: 70%;
 
 }
 
 
 .sidebar {
-    box-sizing: border-box;
-    float: left;
-    width: 29%;
+    display: table-cell;
+    width: 30%;
     margin-left: 1%;
     padding: 1.5em;
     background-color: #fff;
     border-radius: .5em;
 }
+
+.container {
+    display: table;
+    width: 100%;
+}
+
+
