@@ -1,0 +1,166 @@
+
+
+ 
+
+
+.nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav a{
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav .featured {
+    background-color: orange;
+    box-shadow: 10px 2px #6f9090;
+}
+
+
+.title{
+    font-family: monospace;
+    font: 32px Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: normal;
+    font-size: 32px;
+    
+}
+
+body{
+    color: black;
+    font-family: sans-serif;
+    
+}
+
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a.visited {
+    color: purple;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+.footer {
+    color: #666;
+    background-color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: underline;
+}
+/* chapter 2 styles */
+
+.padded {
+    font-size: 16px;
+    padding: 1em;
+}
+
+.box {
+    border-radius: 1em;
+    background-color: lightgray;
+}
+
+.box-small {
+    font-size: 12px;
+}
+
+.box-large {
+    font-size: 18px;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.about-us {
+    font-size: 2em;
+}
+
+.slogan {
+    font-size: 1.2em;
+    padding: 1.2em;
+    background-color: #ccc;
+}
+
+:root {
+    font-size: calc(0.5em + 1vw);
+}
+
+@media (min-width: 800px){
+    :root {
+        font-size: 0.875em;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        font-size: 1em;
+    }
+}
+
+ul {
+    font-size: .8em;
+}
+
+ul ul {
+    font-size: 1em;
+}
+
+html{
+    font-size: .625em;
+}
+
+.panel {
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: 1px solid #999;
+}
+
+.panel > h2 {
+    margin-top: 0;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.panel.large {
+    font-size: 1.2em;
+}
+
+.square {
+    width: 90vmin;
+    height: 90vmin;
+    background-color: #999;
+}
+
+ 
