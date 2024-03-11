@@ -31,13 +31,13 @@ main {
     display: block;
 }
 
-
 .wrapper {
     margin-left: -1.5em;
     margin-right: -1.5em;
 }
-
+ 
 .container {
+    display: flex;
     display: table;
     width: 100%;
     border-spacing: 1.5em 0;
