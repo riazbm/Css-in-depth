@@ -21,8 +21,7 @@ body {
 
 
 header {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding: 1em 1.5em;
     color: #fff;
     background-color: #0072b0;
     border-radius: .5em;
@@ -62,6 +61,11 @@ main {
     background-color: #fff;
     border-radius: .5em;
    
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
  
