@@ -77,6 +77,13 @@ main {
     margin-top: 1.5em;
 }
 
+.sponsor-link {
+    display: block;
+    color: #0072b0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 p {
     margin-top: 1em;
     margin-bottom: 1em;
