@@ -54,11 +54,12 @@ main {
     background-color: #fff;
     border-radius: .5em;
     width: 70%;
-
+    display: table-cell;
 }
 
 
 .sidebar {
+    display: table-cell;
     margin-top: 0;
     margin-left: 1.5em;
     width: 30%;
