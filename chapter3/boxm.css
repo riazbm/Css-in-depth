@@ -21,6 +21,8 @@ body {
 
 
 header {
+    padding-top: 4em;
+    padding-bottom: 4em;
     color: #fff;
     background-color: #0072b0;
     border-radius: .5em;
