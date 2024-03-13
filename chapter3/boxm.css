@@ -63,10 +63,26 @@ main {
    
 }
 
+.button-link {
+    display: block;
+    padding: 0.5em;
+    color: #fff;
+    background-color: #0090C9;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-link + .button-link {
+    margin-top: 1.5em;
+}
+
 p {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
+
 
  
 
