@@ -50,7 +50,7 @@ main {
 
 
 .main {
-    display: table-cell;
+    padding: 1em 1.5em;
     background-color: #fff;
     border-radius: .5em;
     width: 70%;
@@ -59,7 +59,8 @@ main {
 
 
 .sidebar {
-    display: table-cell;
+    margin-top: 0;
+    margin-left: 1.5em;
     width: 30%;
     padding: 1.5em;
     background-color: #fff;
