@@ -44,8 +44,12 @@ header {
     border-radius: 0.5em;
 }
 
+.clearfix::before,
 .clearfix::after {
-    display: block;
+    display: table;
     content: " ";
+}
+
+.clearfix::after {
     clear: both;
 }
