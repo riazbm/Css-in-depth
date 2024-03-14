@@ -43,3 +43,9 @@ header {
     background-color: #eee;
     border-radius: 0.5em;
 }
+
+.clearfix::after {
+    display: block;
+    content: " ";
+    clear: both;
+}
